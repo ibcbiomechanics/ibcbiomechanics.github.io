@@ -1,2 +1,2 @@
 # ibc.bio
-Company presentation website
+IBC Biomechanics company's presentation website

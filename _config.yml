@@ -1,0 +1,41 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://www.ibc.bio
+title: IBC Biomechanics
+email: info@ibc.bio
+email_name: IBC%20Biomechanics
+email_subject: [Website]
+phone: 935795462
+author: davidlj95
+description: > # "Write an awesome description for your new site here.
+  Ofrecemos estudios biomecánicos integrados, objetivos, fiables y con la última tecnologia disponible
+copyright: 'Copyright &copy; 2017 IBC Biomechanics. All Rights Reserved.'
+credits: > # "Credits
+  Credits: <a href="https://github.com/davidlj95" target="_blank">davidlj95</a>
+repository: ibcbiomechanics/ibcbiomechanics.github.io
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+permalink: pretty
+gems:
+- jekyll-email-protect
+
+# ----------------------- #
+#    Social Networks      #
+# ----------------------- #
+social:
+ - title: facebook
+   url: https://facebook.com/ibcbiomechanics
+ - title: linkedin
+   url: https://linkedin.com/company/ibcbiomechanics
+ - title: twitter
+   url: https://twitter.com/ibcbiomechanics
+ - title: instagram
+   url: https://instagram.com/_u/ibcbiomechanics
+ - title: google-plus
+   url: https://plus.google.com/+IBCBiomechanics

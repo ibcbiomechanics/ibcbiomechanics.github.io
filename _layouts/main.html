@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    {% include head.html %}
+    {% include icons.html %}
+</head>
+
+<body>
+	<header id="header">
+        {% include social.html %}
+        {% include navigation.html %}
+    </header>
+    <!--/#header-->
+
+    {% include home_slider.html %}
+    <!--/#home-slider-->
+
+    {% include services.html %}
+    <!--/#services-->
+
+    {% include banner.html %}
+    <!--/#action-->
+
+    {% include features.html %}
+     <!--/#features-->
+
+    {% include partners.html %}
+    <!--/#clients-->
+
+    {% include footer.html %}
+    <!--/#footer-->
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+    $(document).ready(function(){
+    	$('a[href^="#"]').on('click',function (e) {
+    	    e.preventDefault();
+
+    	    var target = this.hash;
+    	    var $target = $(target);
+
+    	    $('html, body').stop().animate({
+    	        'scrollTop': $target.offset().top
+    	    }, 900, 'swing', function () {
+    	        window.location.hash = target;
+    	    });
+    	});
+    });
+    </script>
+</body>
+</html>

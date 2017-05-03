@@ -30,15 +30,15 @@ jQuery(function($) {'use strict';
 		}
 
 		var $portfolio_selectors = $('.portfolio-filter >li>a');
-		
+
 		if($portfolio_selectors.length) {
-			
+
 			var $portfolio = $('.portfolio-items');
 			$portfolio.isotope({
 				itemSelector : '.portfolio-item',
 				layoutMode : 'fitRows'
 			});
-			
+
 			$portfolio_selectors.on('click', function(){
 				$portfolio_selectors.removeClass('active');
 				$(this).addClass('active');
@@ -57,14 +57,14 @@ jQuery(function($) {'use strict';
 		options = $.extend({}, options || {}, $this.data('countToOptions') || {});
 		$this.countTo(options);
 	}
-		
+
 	// Search
 	$('.fa-search').on('click', function() {
 		$('.field-toggle').fadeToggle(200);
 	});
 
 	// Contact form
-	var form = $('#main-contact-form');
+	/*var form = $('#main-contact-form');
 	form.submit(function(event){
 		event.preventDefault();
 		var form_status = $('<div class="form_status"></div>');
@@ -76,7 +76,7 @@ jQuery(function($) {'use strict';
 		}).done(function(data){
 			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
 		});
-	});
+	});*/
 
 	// Progress Bar
 	$.each($('div.progress-bar'),function(){

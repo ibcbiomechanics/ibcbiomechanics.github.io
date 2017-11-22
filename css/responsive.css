@@ -121,8 +121,8 @@
   }
 
   #home-slider .slider-dynamometer {
-    right: 0;
-    bottom: 90px;
+    right: 100px;
+    bottom: 60px;
     width: 80px;
   }
 
@@ -327,7 +327,7 @@
   #home-slider .slider-dynamometer {
     width: 70px;
     right: 50%;
-    margin-right: -150px;
+    margin-right: -120px;
   }
 
   /*Pricing Table*/
